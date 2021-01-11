@@ -19,27 +19,6 @@
     </v-app-bar>
 
     <v-main class="main">
-      <!-- Objets perdus -->
-      <v-row justify="center">
-        <h2>Objets perdus</h2>
-      </v-row>
-      <v-row justify="center">
-        <v-col cols="auto">
-          <lost-object-per-month></lost-object-per-month>
-        </v-col>
-        <v-divider vertical></v-divider>
-        <v-col cols="auto">
-          <lost-object></lost-object>
-        </v-col>
-        <v-divider vertical></v-divider>
-        <v-col cols="auto">
-          <lost-bar-chart></lost-bar-chart>
-        </v-col>
-      </v-row>
-
-      <v-spacer></v-spacer>
-      <v-divider horizontal></v-divider>
-      
       <!-- Objets retrounés et rendus -->
       <v-row justify="center">
         <h2>Objets retrouvés et rendus à leurs propriétaires</h2>
@@ -59,8 +38,25 @@
       </v-row>
 
       <v-spacer></v-spacer>
-      <v-divider horizontal></v-divider>
-      
+      <!-- Objets perdus -->
+      <v-row justify="center">
+        <h2>Objets perdus</h2>
+      </v-row>
+      <v-row justify="center">
+        <v-col cols="auto">
+          <lost-object-per-month></lost-object-per-month>
+        </v-col>
+        <v-divider vertical></v-divider>
+        <v-col cols="auto">
+          <lost-object></lost-object>
+        </v-col>
+        <v-divider vertical></v-divider>
+        <v-col cols="auto">
+          <lost-bar-chart></lost-bar-chart>
+        </v-col>
+      </v-row>
+
+      <v-spacer></v-spacer>
       <!-- <v-row>
         <v-col cols="6">
           <v-row justify="center">
@@ -79,7 +75,7 @@
         <h2>Objets trouvés et restitués</h2>
       </v-row>
       <v-row justify="center">
-        <v-col cols="8">
+        <v-col cols="10">
           <returned-board></returned-board>
         </v-col>
       </v-row>
@@ -87,7 +83,7 @@
         <h2>Déclaration de pertes</h2>
       </v-row>
       <v-row justify="center">
-        <v-col cols="8">
+        <v-col cols="10">
           <lost-board></lost-board>
         </v-col>
       </v-row>
