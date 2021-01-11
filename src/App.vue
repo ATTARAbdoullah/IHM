@@ -19,25 +19,6 @@
     </v-app-bar>
 
     <v-main class="main">
-      <!-- Objets retrounés et rendus -->
-      <v-row justify="center">
-        <h2>Objets retrouvés et rendus à leurs propriétaires</h2>
-      </v-row>
-      <v-row justify="center">
-        <v-col cols="auto">
-          <returned-object-per-month></returned-object-per-month>
-        </v-col>
-        <v-divider vertical></v-divider>
-        <v-col cols="auto">
-          <returned-object></returned-object>
-        </v-col>
-        <v-divider vertical></v-divider>
-        <v-col cols="auto">
-          <returned-bar-chart></returned-bar-chart>
-        </v-col>
-      </v-row>
-
-      <v-spacer></v-spacer>
       <!-- Objets perdus -->
       <v-row justify="center">
         <h2>Objets perdus</h2>
@@ -57,6 +38,29 @@
       </v-row>
 
       <v-spacer></v-spacer>
+      <v-divider horizontal></v-divider>
+      
+      <!-- Objets retrounés et rendus -->
+      <v-row justify="center">
+        <h2>Objets retrouvés et rendus à leurs propriétaires</h2>
+      </v-row>
+      <v-row justify="center">
+        <v-col cols="auto">
+          <returned-object-per-month></returned-object-per-month>
+        </v-col>
+        <v-divider vertical></v-divider>
+        <v-col cols="auto">
+          <returned-object></returned-object>
+        </v-col>
+        <v-divider vertical></v-divider>
+        <v-col cols="auto">
+          <returned-bar-chart></returned-bar-chart>
+        </v-col>
+      </v-row>
+
+      <v-spacer></v-spacer>
+      <v-divider horizontal></v-divider>
+      
       <!-- <v-row>
         <v-col cols="6">
           <v-row justify="center">
